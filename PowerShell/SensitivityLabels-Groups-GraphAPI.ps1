@@ -21,7 +21,6 @@ $grpUnifiedSetting = Get-MgBetaDirectorySetting -Search DisplayName:"Group.Unifi
 if ($Null -eq $grpUnifiedSetting) {
     Write-Host 'Missing Directory Settings - Creating new settings'
     $TemplateId = (Get-MgBetaDirectorySettingTemplate | Where-Object { $_.DisplayName -eq "Group.Unified" }).Id
-    #$Template = Get-MgBetaDirectorySettingTemplate | Where-Object -Property Id -Value $TemplateId -EQ
     $params = @{
         templateId = "$TemplateId"
         Values     = @(
