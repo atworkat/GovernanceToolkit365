@@ -4,6 +4,7 @@
 # https://learn.microsoft.com/en-us/purview/sensitivity-labels-teams-groups-sites#enable-this-preview-and-synchronize-labels
 # https://learn.microsoft.com/en-us/entra/identity/users/groups-assign-sensitivity-labels
 
+# Install the required modules:
 # Install-Module Microsoft.Graph.Authentication -Scope CurrentUser
 # Update-Module Microsoft.Graph.Authentication
 # Install-Module Microsoft.Graph.Beta.Identity.DirectoryManagement -Scope CurrentUser
