@@ -2,7 +2,7 @@
 
 These pages inform about how to use the Governance Toolkit 365 (GT365) with Microsoft Power-BI.
 
-You can download the desktop client at the [Power-BI website](https://powerbi.microsoft.com/en-us/downloads/). You can download a GT365 dashboard sample zip-file from [here](https://governancetoolkit365.com/download/GovernanceToolkit365-Template.zip).
+You can download the desktop client at the [Power-BI website](https://powerbi.microsoft.com/en-us/downloads/). You can download the  GT365 Power BI template file from your [GT365 Admin portal](https://admin.governancetoolkit365.com/#/solutions).
 
 We assume, the data for your tenant has already been generated, and you have got the Azure Storage Account name and key. You need that data to access your generated statistics.
 
@@ -10,8 +10,9 @@ We assume, the data for your tenant has already been generated, and you have got
 
 Follow these steps to get your own data visualized in Power-BI.
 
-- Extract the [zip file](https://governancetoolkit365.com/download/GovernanceToolkit365-Template.zip).
-- Open the dashboard file *GovernanceToolkit365-Template.pbit* with your Power-BI desktop client. When Power-BI tries to update the content, an error can occur. If this message happens, simply click on "Close".
+- Download the latest GT365 Power BI template file from your [GT365 Admin portal](https://admin.governancetoolkit365.com/#/solutions)
+- Extract the downloaded zip file.
+- Open the dashboard file *GovernanceToolkit365.pbit* with your Power-BI desktop client. When Power-BI tries to update the content, an error can occur. If this message happens, simply click on "Close".
 [![link](./images/powerbi-1.png)](./images/powerbi-1 "Click to enlarge")
 - Now, let´s connect to your custom data source. Click on the "Edit queries" icon in the ribbon and select "Data source settings".
 [![link](./images/powerbi-2.png)](./images/powerbi-2 "Click to enlarge")
